@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  font-family: 'Inter', sans-serif !important;
+}
+.bg-gray{
+ background-color: #414141;
+}
+.bg-red{
+
+  background: linear-gradient(45deg, rgba(192, 3, 3, 0.668), rgb(192, 3, 3));
+}
+/* index.css vagy egy másik központi stílusfájl */
+*::-webkit-scrollbar {
+  width: 12px; /* vagy más méret, amit szeretnél */
+  height: 12px; /* csak a vízszintes görgetéshez */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray; /* a scrollbar háttere */
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent; /* a scrollbar háttére, ha nincs görgetés */
+}
+
+/* Más böngészők esetén */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: gray transparent;
+   
+}
+
+/* Médialekérdezés 720px alatti képernyőméretre */
+@media screen and (max-width: 1250px) {
+  input{
+    font-size: 1.9 !important;
+  }
+  button{
+    font-size: 1.5rem !important;
+  }
+  
+  
+}
+input{
+  padding: 5px !important;
+  margin-bottom: 1rem !important;
+  border: none;
+}
+* :focus-visible{
+  outline: none !important;
+}
+/* Ha szeretnéd, hogy mindkét típusú böngészőnél működjön a beállítás */
+/* body {
+  scrollbar-width: thin;
+  scrollbar-color: gray transparent;
+
+  &::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: gray;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+} */
