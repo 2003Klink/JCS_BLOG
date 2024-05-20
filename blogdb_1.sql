@@ -1430,7 +1430,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `email`, `passwd`, `bio`, `profilePicture`, `level`) VALUES
-(1, 'lolo', 'koko@gmail.com', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'fasza', 2, 'User'),
+(1, 'lolo', 'koko@gmail.com', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', '', 2, 'User'),
 (2, 'blogger2', 'martinkovacs@gmail.com', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', NULL, 33, 'User'),
 (3, 'blogger3', 'martinkovacs21@gmail.com', 'dba627194bfe7aaa65502b1d5f3f52e623a5d3dda5ae853608e4568f227059f6', NULL, NULL, 'User'),
 (4, 'kokololi87', 'martin@gmail.com', 'dba627194bfe7aaa65502b1d5f3f52e623a5d3dda5ae853608e4568f227059f6', NULL, 4, 'User'),
